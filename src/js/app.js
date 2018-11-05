@@ -6,6 +6,5 @@ $(document).ready(function () {
         let codeToParse = $('#codePlaceholder').val();
         let parsedCode = parseCode(codeToParse);
         $('#parsedCode').val(JSON.stringify(parsedCode, null, 2));
-        let x=10;
     });
 });
